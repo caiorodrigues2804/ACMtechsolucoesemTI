@@ -1,0 +1,131 @@
+* { margin: 0; padding: 0; } 
+h1,h2,h3,h4,h5,h6{
+    font-family: arial;
+    color: white;
+}
+body{
+    background-image: linear-gradient(#5e17eb,#ffe252);
+}
+header{
+    background-color: #5e17eb;
+}
+
+#inicio{
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #5e17eb;
+    border: 2px solid black;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li a{
+    display:inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-family:  'Bebas Neue', cursive, sans-serif;
+    font-size: x-large;
+    color: #ffe252;
+}
+
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    /*border: 1px solid #5e17eb;*/
+    
+}
+
+.foto img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+footer section{
+    display: block;
+}
+footer section h2{
+    display: block;
+    align-items: initial;
+    width: fit-content;
+    margin: 20px;
+    color: white;
+
+}
+
+footer section div{
+    margin: 20px;
+    padding: 20px;
+}
+
+footer section div a{
+    display: inline-block;
+    align-items: center;
+}
+
+footer section div{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    width: 400px;
+    font-family: arial;
+}
+
+footer section img{
+    width: 60px;
+    height: 60px;
+    margin-right: 4px;
+    border-radius: 10px;
+}
+
+/*          */
+#layout{
+    margin: 10px;
+    display: inline-block;
+    float: left;
+
+}
+#sub_layout{
+    word-break: break-word;
+    margin-left: 8px;
+    font-family: arial;
+    background-color: #5e17eb;
+    width: 285px;
+    padding: 10px;
+    height: 105px;
+    display: inline-block;
+
+} #layouts{
+  
+    margin-left: 50px;
+    margin-right: 50px;
+} #layouts p{
+      font-family: arial;
+      font-size: 20px;
+} * a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*DIV*/
+#div_01, #div_02{
+    margin-left: 10px;
+ }
